@@ -1,5 +1,5 @@
 #while loop = execute some code while some condition remain true
-from idlelib.configdialog import changes
+
 
 name = input("Enter your name? :")
 print("this line is added using mobile")
