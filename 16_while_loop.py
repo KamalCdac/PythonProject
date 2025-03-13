@@ -13,4 +13,3 @@ while food!='q':
     print(f"you like {food}")
     food = input("Enter a food item you like (q to quit): ")
 print(f" Your name is {name}")
-print("kamalpreet kaur")
