@@ -11,7 +11,7 @@
 # food = input("Enter a food item you like (q to quit): ")
 #
 # while not food == 'q':
-# #while food!='q':
+# while food!='q':
 #     print(f"you like {food}")
 #     food = input("Enter a food item you like (q to quit): ")
 # print(f" Your name is {name}")

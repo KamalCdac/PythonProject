@@ -5,7 +5,7 @@ credit_number = "1234-5678-9012-3456"
 print(credit_number[0:4]) # it will return first 4 characters/ digits start=0 and end=4
 print(credit_number[:4]) # same output as above line's as python assumes starting index will be 0 by default
 print(credit_number[5:9])
-# if we need everything upto the end of the string dont specify end for example [5:]
+# if we need everything upto the end of the string don't specify end for example [5:]
 print(credit_number[5:])
 print(credit_number[-1]) # prints 6 from last
 print(credit_number[-2]) # prints 5 from last second digit
