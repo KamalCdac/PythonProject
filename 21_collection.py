@@ -24,3 +24,7 @@ print(fruits[2:]) # prints elements from second index to last as i didn't mentio
 for fruit in fruits:
     #print(fruit)
     print(fruit, end=", ") # prints on same line with comma(,)
+
+print(dir(fruits))
+
+print(help(fruits))
