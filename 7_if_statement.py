@@ -1,4 +1,4 @@
-# if = Do some ccode only IF some condition is True
+# if = Do some code only IF some condition is True
 #      Else do something else
 
 age = int(input("Enter your age: "))
@@ -14,7 +14,7 @@ else:
 #----------------------------------------------------------
 
 response = input("Would you like food? (Y/N): ")
-if response == "Y":
+if response == "Y" or response == "y":
     print("Have some food")
 else:
     print("No food for you")

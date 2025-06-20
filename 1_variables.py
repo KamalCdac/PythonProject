@@ -13,7 +13,9 @@ print("Its really Good!")
 first_name = "Bro"
 food = "Pizza"
 email = "brocode@fake.com"
+city = "Mohali"
 print(first_name)
+print(f'''Hii my name is Kamalpreet Kaur i am working as a project engineer at CDAC, {city}''')
 print(f"Hello {first_name}")
 print(f"Hello {first_name} you like {food}")
 print(f"Your email is {email}")
@@ -31,7 +33,7 @@ gpa = 3.2
 distance = 5.5
 print(f"The price is ${Price} ")
 print(f"Your gpa is: {gpa} ")
-print(f"Your ran is: {distance} km ")
+print(f"Your ran : {distance} km ")
 
 # Boolean : A boolean is either True or False ( first letter is capital) They are binary
 is_student = True

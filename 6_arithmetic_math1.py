@@ -23,5 +23,7 @@ print(f"Area of circle is {round(area,2)}")
 
 a = float(input("Enter the value of side a: "))
 b = float(input("Enter the value of side b: "))
+print(pow(a,3))
+print(pow(b,3))
 area_triangle = math.sqrt(pow(a,2) * pow(b,2))
 print(f"Area of triangle is {area_triangle}")
