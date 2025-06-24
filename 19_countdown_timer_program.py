@@ -6,7 +6,7 @@ my_time = int(input("Enter time in seconds: "))
 #     print(x)
 # print("Time's UP1")
 #
-# # count backwards
+# count backwards
 # for x in reversed(range(0, my_time)):
 #     time.sleep(1)
 #     print(x)

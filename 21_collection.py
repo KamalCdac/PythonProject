@@ -18,13 +18,16 @@ print(fruits[:3])
 print(fruits[::2]) # prints every second element
 print(fruits[::-1]) # Prints list in reverse order
 
-print(fruits[2:]) # prints elements from second index to last as i didn't mention last index
+print(fruits[2:]) # prints elements from second index to last as I didn't mention last index
 
 
 for fruit in fruits:
-    #print(fruit)
-    print(fruit, end=", ") # prints on same line with comma(,)
+    print(fruit)
+    # print(fruit, end=", ") # prints on same line with comma(,)
 
-print(dir(fruits))
+# print(dir(fruits))
 
-print(help(fruits))
+# print(help(fruits))
+
+print("Orange" in fruits)
+fruits[0] = "pineapple"

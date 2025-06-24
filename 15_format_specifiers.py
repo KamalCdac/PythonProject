@@ -16,9 +16,9 @@ price1 = 3.14159
 price2 = -987.65
 price3 = 12.34
 
-print(f"Price 1 is ${price1:.3f}")
-print(f"Price 2 is ${price2:.3f}")
-print(f"Price 3 is ${price3:.3f}")
+print(f"Price 1 is ${price1:.3f}") #Price 1 is $3.142
+print(f"Price 2 is ${price2:.3f}") #Price 2 is $-987.650
+print(f"Price 3 is ${price3:.3f}") #Price 3 is $12.340
 
 print(f"Price 1 is ${price1:10}")   #Price 1 is $   3.14159
 print(f"Price 2 is ${price2:10}")   #Price 2 is $   -987.65

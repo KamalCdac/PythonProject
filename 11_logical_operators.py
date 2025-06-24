@@ -25,9 +25,8 @@ elif temp <= 0 and is_sunny:
 elif 28 > temp > 0 and is_sunny:
     print("It  is warm outside 😊")
 
+
 ###### NOT Operator
-
-
 temp = -3
 is_sunny = False
 

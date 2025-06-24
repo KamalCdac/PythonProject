@@ -28,7 +28,7 @@ print(rate)
 print(time)
 
 total = principle * pow((1 + rate / 100),time)
-print(f"Compund interest is {total:.2f}")
+print(f"Compound interest is {total:.2f}")
 
 
 #----------------------------This code allows entering 0 input-------------------------------------------------------------------------------------
@@ -63,4 +63,4 @@ print(rate)
 print(time)
 
 total = principle * pow((1 + rate / 100),time)
-print(f"Compund interest is {total:.2f}")
+print(f"Compound interest is {total:.2f}")

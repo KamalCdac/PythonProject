@@ -10,7 +10,7 @@ age = 25
 temperature = 30
 user_role = "admin"
 
-# print("Positive" if temp > 0 else "Negative")
+print("Positive" if temp > 0 else "Negative")
 result = "EVEN" if temp % 2 == 0 else "ODD"
 print(result)
 

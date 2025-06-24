@@ -14,4 +14,7 @@ for  y in range(rows):
 #    print(end="\n") or
     print()
 
+print("Item 1", end=" ")
+print("Item 2")
+
 

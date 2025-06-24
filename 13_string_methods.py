@@ -16,6 +16,7 @@ print(result4)
 result5 = name.upper() # All letter will be capital
 print(result5)
 
+
 result6 = name.lower() # All letter will be lower case
 print(result6)
 
@@ -27,9 +28,9 @@ print(result8)
 #-------------------------------------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>----------------------->>>>>>>>>>>
 phone_number = input("Enter your Phone number # : ")
 result9 = phone_number.count("2")
-print(result9)
+print(f"count of phone is {result9}")
 
-result10 = phone_number.replace("-", " ")
+result10 = phone_number.replace("-", "*")
 print(result10)
 
 #print(help(str)) # list of all string methods available
@@ -61,4 +62,3 @@ if user_name_len > 12 :
     print("Username can't be more than 12 characters")
 else:
     print(f"Welcome {user_name}")
-
